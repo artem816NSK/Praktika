@@ -1,0 +1,111 @@
+body {
+    background: url(/img/stucco.png);
+}
+
+
+
+.upper-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.upper-p {
+    font-size: 22px;
+    padding-bottom: 70px;
+    font-weight: bold;
+}
+.upper-h1 {
+    text-align: left;
+}
+.upper {
+    margin:  0 auto;
+    width: 1400px;
+}
+
+.main {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.main-h2 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+}
+
+.img-img2 {
+    height: 60px;
+    margin-left: 40px;
+}
+
+.img-img1, .img-img2 {
+    margin-top: 10px;
+}
+
+.input-p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.input {
+    border-radius: 10%;
+    margin-left: 70px;
+    height: 40px;
+    width: 70px;
+    font-size: 30px;
+}
+
+.btn {
+    display: block;	
+	box-sizing: border-box;
+	padding: 0 15px;
+	margin: 0 20px 15px 0;
+	outline: none;
+	border: 1px solid #7952b3;  
+	border-radius: 5px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #fff;
+	background-color: #7952b3;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+    margin: 0 auto;
+    
+    
+}
+
+.btn:focus {
+	box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
+}
+.btn:hover {
+	background-color: #61428f;
+	border-color: #61428f;
+}
+.btn:active {
+	background-color: #61428f !important;
+	border-color: #61428f !important;
+}
+.btn:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}
+
+.out {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

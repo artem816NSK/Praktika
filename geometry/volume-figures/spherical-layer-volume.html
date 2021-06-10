@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style-geometry.css" rel="stylesheet">
+    <title>Объем шарового слоя</title>
+</head>
+<body>
+    <div class="spherical-layer-volume">
+        <div class="upper">
+            <h1 class="upper-h1"><a href="/index.html"><img src="/img/h1_icon_1c.svg" class="upper-img"></a>Объем шарового слоя</h1>
+            <p class="upper-p">
+                Сегодня далеко не каждый студент знает, что такое шаровой слой, однако это не освобождает 
+                его от необходимости вычислять его. Если говорить простым ненаучным языком, то шаровой 
+                слой – это часть шара, которая заключена между двумя параллельными плоскостями. 
+                Вместе с этим понятием принято знать и о шаровой зоне, которая представляет собой 
+                кривую поверхность шарового слоя. Высотой шарового слоя считают расстояние между 
+                верхним и нижним основанием, тогда как основанием являются круги.
+            </p>
+        </div>
+        
+        <div class="main">
+            <h2 class="main-h2">Объем шарового слоя</h2>
+            <p class="input-p">Введите радиус основания r1<input type="text" class="input inp-r1-slv"></p>
+            <p class="input-p">Введите радиус основания r2<input type="text" class="input inp-r2-slv"></p>
+            <p class="input-p">Введите величину h<input type="text" class="input inp-h-slv"></p>
+
+            <button class="btn btn-slv">Выполнить</button>
+            <div class="out out-slv"></div>
+        </div>
+
+    </div>
+    <script type="module" src="/js/Geometry/volume-figures/sphericalLayerVolume.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style-geometry.css" rel="stylesheet">
+    <title>Радиус цилиндра</title>
+</head>
+<body>
+    <div class="radius-cylinder">
+        <div class="upper">
+            <h1 class="upper-h1"><a href="/index.html"><img src="/img/h1_icon_1c.svg" class="upper-img"></a>Радиус цилиндра</h1>
+            <p class="upper-p">
+                Радиус цилиндра – это отрезок, соединяющий на плоскости основания точку центральной оси объемной геометрической фигуры с любой 
+                точкой на ее ограниченной окружностью поверхности. Калькулятор вычисляет радиус цилиндра по сложной формуле, используя исходные 
+                данные площади цилиндра и его высоты: r=(sqrt(8 х pi х S+sqrt(2 х pi х h)) - 2 х pi х h)/2 х pi.
+            </p>
+        </div>
+        <div class="main">
+                <h2 class="main-h2">Найти радиус цилиндра</h2>
+                <div class="main-img">
+                    <img src="/img/Geometry/radius/radius-cylinder/obemCilindr2.png" alt="">
+                </div>
+                <p class="input-p">Объем цилиндра h <input type="text" class="input inp-h-cylinder"></p>
+                <p class="input-p">Площадь цилиндра S <input type="text" class="input inp-S-cylinder"></p>
+                <button class="btn btn-cylinder">Выполнить</button>
+                <div class="out out-cylinder"></div>
+        </div>    
+    </div>
+    
+    <script type="module" src="/js/Geometry/radius/radiusCylinder.js"></script>
+</body>
+</html>
