@@ -27,7 +27,7 @@ li {
     width: 900px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     padding: 30px;
 }
 
