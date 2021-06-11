@@ -1,3 +1,28 @@
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
 body {
     background: url(/img/stucco.png);
 }
@@ -27,6 +52,8 @@ body {
     width: 800px;
     height: auto;
     margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 

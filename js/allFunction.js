@@ -113,11 +113,6 @@ export function trapezoidArea2(m, h, out) {
 }
 
 
-
-
-
-
-
 //Объем фигур 
 //Объем конуса
 export function coneVolue1(s, h, out) {
@@ -302,4 +297,32 @@ export function sumDivNum(a, out) {
     out.innerHTML = `Делители = ${res.join(', ')} <br>
                      Количество делителей = ${res.length}<br>
                      Сумма делителей = ${sum}`;
+}
+
+
+//Прочее
+//Простое число
+
+export function primeNum(num, out) {
+    let flag = true;
+    for (let i = 2; i < num; i++) {
+	    if (num % i == 0) flag = false; 
+    }
+    if(flag) out.innerHTML = `Число является простым`;
+    else out.innerHTML = `Число не является простым`;
+}
+
+
+//Сколько процентов составляет число A от числа B
+export function percentageAFromB(a, b, out) {
+    let p = a / b * 100;
+
+    out.innerHTML = `Результат = ${p}%`;
+}
+
+//Процент от числа
+export function precentageNum(a, b, out) {
+    let p = a / 100 * b;
+
+    out.innerHTML = `Результат = ${p}`;
 }
